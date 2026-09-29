@@ -2,11 +2,13 @@
   "id": "awakened",
   "title": "Awakened",
   "version": "1.0.0",
+  "url": "https://github.com/Eric-1917/Awakened",
+  "manifest": "https://raw.githubusercontent.com/Eric-1917/Awakened/master/module.json",
+  "download": "https://github.com/Eric-1917/Awakened/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
-  "description": "<p>Awakened.</p>",
  "flags": {
    "awakened": {
     "pf2e-homebrew": {
@@ -35,9 +37,6 @@
    },
     "canUpload": true
   },
-  "flags": {
-    "canUpload": true
-  },
   "packs": [
     {
       "name": "awakened",
@@ -51,8 +50,6 @@
       "system": "pf2e",
       "flags": {}
     }
-  ],
-  "url": "https://github.com/Eric-1917/Awakened",
-  "manifest": "https://raw.githubusercontent.com/Eric-1917/Awakened/master/module.json",
-  "download": "https://github.com/Eric-1917/Awakened/archive/refs/heads/main.zip"
+  ]
+
 }

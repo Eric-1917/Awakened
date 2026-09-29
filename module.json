@@ -1,0 +1,58 @@
+{
+  "id": "awakened",
+  "title": "Awakened",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Awakened.</p>",
+ "flags": {
+   "awakened": {
+    "pf2e-homebrew": {
+     "featTraits": {
+      "awakened": {
+       "label": "Awakened",
+       "description": "This belongs to the Awakened Class."
+      },
+     "practice": {
+      "label": "Practice",
+      "description": "The basic magical practice of the Awakened. There are 13 practices, though you only have access to some depending on your choice of watchtower and your advancement as an Awakened."
+      },
+     "attainments": {
+      "label": "Attainments",
+      "description": "Passive effects that give the Awakened a benefit or certain options. Awakened must decide during daily preparations they want to have access to, and reduce their mana pool appropriately. The reduction of your mana pool by an attainment to have available or active is 1 for Initiate, 2 for Apprentice, 3 for Disciple, 4 for Adept, 5 for Exalted"
+      },
+     "yantra": {
+      "label": "Yantra",
+      "description": "Yantra are objects wielded by Awakened that help them focus their powers, and is needed for each practice. These add an item bonus to your Practice DC only for initiating practices"
+      },
+     "paradox": {
+      "label": "paradox",
+      "description": "This represents reality recoiling at your attempts at grasping too far beyond. Some effects make reference to Paradox Buffer, which always includes a value. If you have paradox buffer, on the next practice you initiate that triggers paradox, the GM gains a bonus amount of reach to the effect equal to the amount of paradox buffer. You then lose all Paradox Buffer"}
+     }
+    }
+   },
+    "canUpload": true
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "awakened",
+      "label": "Awakened",
+      "path": "packs/awakened",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Eric-1917/Awakened",
+  "manifest": "https://raw.githubusercontent.com/Eric-1917/Awakened/master/module.json",
+  "download": "https://github.com/Eric-1917/Awakened/archive/refs/heads/main.zip"
+}
